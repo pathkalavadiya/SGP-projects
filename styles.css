@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2eded;
+}
+
+header {
+    background-color: #f1f1f0;
+    color: rgb(12, 12, 12);
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.puff-container {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+
+.puff-box {
+    background-color: rgb(78, 78, 78);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 200px;
+    padding: 15px;
+    margin: 100px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.puff-box img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.order-btn {
+    background-color: #ff6f00;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.review-section {
+    margin-top: 20px;
+    color: #f7f7f1;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position:absolute;
+    bottom:auto;
+    width: 100%;
+}

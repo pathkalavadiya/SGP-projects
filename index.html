@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>MR.PUFFWALLA - Order Your Puff</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body background="background.jpg " style="background-repeat:no-repeat;background-size: 100% 100%;">
+    <header>
+        <h1>Pinkey Zone</h1>
+    </header>
+
+    <main>
+        <div class="puff-container">
+            <!-- Puff Item 1 -->
+            <div class="puff-box" data-name="Cheese Puff" data-price="50">
+                <img src="puffmain.jpeg" alt="Cheese Puff">
+                <h2>Cheese Puff</h2>
+                <p>Price: ₹30</p>
+                <label for="quantity1">Quantity:</label>
+                <input type="number" id="quantity1" class="quantity" value="1" min="1">
+                <button class="order-btn">Order Now</button>
+            </div>
+
+            <!-- Repeat for other 9 puff items with different data attributes -->
+            <!-- Example for another puff item -->
+            <div class="puff-box" data-name="Veg Puff" data-price="30">
+                <img src="veg puff.jpeg" alt="Veg Puff">
+                <h2>Veg Puff</h2>
+                <p>Price: ₹40</p>
+                <label for="quantity2">Quantity:</label>
+                <input type="number" id="quantity2" class="quantity" value="1" min="1">
+                <button class="order-btn">Order Now</button>
+            </div>
+            <div class="puff-box" data-name="Simple Puff" data-price="30">
+                <img src="puff1.jpg" alt="Veg Puff">
+                <h2>Simple Puff</h2>
+                <p>Price: ₹20</p>
+                <label for="quantity3">Quantity:</label>
+                <input type="number" id="quantity3" class="quantity" value="1" min="1">
+                <button class="order-btn">Order Now</button>
+            </div>
+            <div class="puff-box" data-name="Sev Puff" data-price="30">
+                <img src="sevpuff.jpeg" alt="Veg Puff">
+                <h2>Sev Puff</h2>
+                <p>Price: ₹20</p>
+                <label for="quantity4">Quantity:</label>
+                <input type="number" id="quantity4" class="quantity" value="1" min="1">
+                <button class="order-btn">Order Now</button>
+            </div>
+            <div class="puff-box" data-name="spicypaneerpuff" data-price="30">
+                <img src="spicypaneerpuff.jpeg" alt="Veg Puff">
+                <h2>spicy paneer puff</h2>
+                <p>Price: ₹50</p>
+                <label for="quantity5">Quantity:</label>
+                <input type="number" id="quantity5" class="quantity" value="1" min="1">
+                <button class="order-btn">Order Now</button>
+            </div>
+            <div class="puff-box" data-name="aloo puff" data-price="30">
+                <img src="aloo puff.jpeg" alt="Veg Puff">
+                <h2>aloo puff</h2>
+                <p>Price: ₹15</p>
+                <label for="quantity6">Quantity:</label>
+                <input type="number" id="quantity6" class="quantity" value="1" min="1">
+                <button class="order-btn">Order Now</button>
+            </div>
+            
+            <div class="puff-box" data-name="plan puff" data-price="30">
+                <img src="plan puff.jpeg"alt="Veg Puff">
+                <h2>plan puff</h2>
+                <p>Price: ₹20</p>
+                <label for="quantity7">Quantity:</label>
+                <input type="number" id="quantity7" class="quantity" value="1" min="1">
+                <button class="order-btn">Order Now</button>
+            </div>
+
+            <div class="puff-box" data-name="mini puff" data-price="30">
+                <img src="mini puff.jpeg" alt="Veg Puff">
+                <h2>mini puff</h2>
+                <p>Price: ₹30</p>
+                <label for="quantity8">Quantity:</label>
+                <input type="number" id="quantity8" class="quantity" value="1" min="1">
+                <button class="order-btn">Order Now</button>
+            </div>
+
+             <div class="puff-box" data-name="vada pav" data-price="30">
+                <img src="vada pav.jpeg" alt="Veg Puff">
+                <h2>vada pav</h2>
+                <p>Price: ₹30</p>
+                <label for="quantity9">Quantity:</label>
+                <input type="number" id="quantity9" class="quantity" value="1" min="1">
+                <button class="order-btn">Order Now</button>
+            </div>
+            <div class="puff-box" data-name="mugpulao" data-price="30">
+                <img src="mugpulao.jpeg" alt="Veg Puff">
+                <h2>mug pulao</h2>
+                <p>Price: ₹30</p>
+                <label for="quantity10">Quantity:</label>
+                <input type="number" id="quantity10" class="quantity" value="1" min="1">
+                <button class="order-btn">Order Now</button>
+            </div>   
+        </div>
+            <div class="review-section">
+                <h3>Leave a Review</h3>
+                <form action="#">
+                    <div class="rating">
+                        <input type="number" name="rating" hidden>
+                    </div>
+                    <textarea name="opinion" cols="30" rows="5" placeholder=" your review here..."></textarea>
+                    <div class="btn.group">
+                        <button type="button" >Submit</button>
+                    </div>
+                    </form>
+                    
+            </div>
+           
+        </main>
+        <div class="footer">
+             <footer>
+                <p>&copy; 2024 Pinkey</p>
+            </footer>
+        </div>
+        <script src="app.js"></script>
+</body>
+</html>
